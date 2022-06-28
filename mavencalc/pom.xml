@@ -25,16 +25,16 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-		<groupId>mysql</groupId> 
-  		<artifactId>mysql-connector-java</artifactId> 
-  		<version>5.1.39</version> 
+	<dependency>
+  		<groupId>org.postgresql.driver</groupId> 
+  		<artifactId>PostgreSQL-JDBC-Driver-42.4.0</artifactId> 
+  		<version>42.4.0</version> 
   	</dependency>
  	<dependency>
   		<groupId>net.objecthunter</groupId> 
   		<artifactId>exp4j</artifactId> 
   		<version>0.4.8</version> 
-  	</dependency>
+  	</dependency> 
   </dependencies>
 
   <build>
