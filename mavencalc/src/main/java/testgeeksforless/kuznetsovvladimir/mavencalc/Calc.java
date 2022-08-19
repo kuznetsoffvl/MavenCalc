@@ -8,7 +8,7 @@ import net.objecthunter.exp4j.Expression;
 
 public class Calc {
 
-	public String expression;
+	private String expression;
 	private double result;
 	private boolean errorFlag = false;
 	private String errorsMessage = "";
